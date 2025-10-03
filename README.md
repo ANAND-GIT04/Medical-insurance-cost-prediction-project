@@ -2,23 +2,37 @@
 
 # Medical Insurance Cost Prediction 🏥💰
 
-This project predicts **medical insurance costs** using machine learning techniques.  
-The model is trained on relevant health and demographic features such as **age, gender, BMI, smoking habits, region, etc.**  
+This project predicts **medical insurance charges** using machine learning.  
+The dataset (`insurance.csv`) contains demographic and lifestyle information such as **age, sex, BMI, children, smoking status, and region**.
 
 ---
 
 ## 📌 Project Overview
-- Exploratory Data Analysis (EDA) on medical insurance dataset.
-- Data preprocessing and feature engineering.
-- Linear Regression (or other ML algorithms used) to predict costs.
-- Model evaluation using metrics (R², MAE, MSE, etc.).
+- Performed **Exploratory Data Analysis (EDA)** to understand data distributions and categorical feature counts.
+- Preprocessed categorical features (sex, smoker, region) into numerical values.
+- Built a **Linear Regression Model** to predict insurance charges.
+- Evaluated the model using **regression performance metrics**.
+
+---
+
+## 📊 Dataset Information
+- **Features**:
+  - `age`: Age of the individual
+  - `sex`: Male/Female
+  - `bmi`: Body Mass Index
+  - `children`: Number of children
+  - `smoker`: Smoker/Non-smoker
+  - `region`: Residential region (southeast, southwest, northeast, northwest)
+- **Target**:
+  - `charges`: Medical insurance cost billed by the insurance company
 
 ---
 
 ## 🛠️ Technologies Used
 - Python 🐍
 - Jupyter Notebook 📓
-- Pandas, NumPy, Matplotlib, Seaborn
-- Scikit-learn
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn (Linear Regression, Metrics)
 
 ---
